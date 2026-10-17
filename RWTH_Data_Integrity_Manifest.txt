@@ -1,0 +1,11 @@
+52 Batteries — RWTH raw data integrity manifest
+Original uploaded outer archive: Data.zip
+Original size (bytes): 112594043
+Original SHA-256: 7bc066ab249352f5e0654a747f5efdf66041b6f35814c6913b6e49f2d63d7de8
+
+RawData.zip
+  size_bytes: 68077796
+  sha256: edd9ede20377924fce202ceeab5b619273546795d27ab7a51e70f9dc95e2753d
+MatFiles.zip
+  size_bytes: 44713594
+  sha256: 875c266c9ac163d02803d3354453509bcd06e9255c1d063dc8ee97c9e0879e0f

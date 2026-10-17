@@ -1,0 +1,17 @@
+# Third-party raw data: download from RWTH source DOI; do not commit.
+MatFiles.zip
+RawData.zip
+Data.zip
+*.mat
+
+# Python/runtime artifacts
+__pycache__/
+*.pyc
+.DS_Store
+
+# Recomputed local outputs that are not part of the locked derived-data release
+*_recomputed.csv
+R9_representative_validated_certificates.json
+R24_FastEIS_25mHz_ProofOriented_Check.csv
+R25_33mHz_RefinedProof.csv
+R25_AdaptiveStop_ProofChecks.csv

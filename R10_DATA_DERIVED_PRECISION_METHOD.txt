@@ -1,0 +1,16 @@
+# R10 data-derived precision audit
+# See R10 manuscript for definitions.
+# Inputs:
+#   MatFiles.zip
+#   R4D_RWTH_5C_ContinuumSafe_42cases.csv
+#   R4D_RWTH_SOC50_AllTemperatures_ContinuumSafe.csv
+#
+# The audit estimates recorded precision, not absolute calibration accuracy:
+# - V0: last 10 pre-pulse zero-current samples
+# - local endpoint noise: MAD of residuals from a linear fit over 19.0–20.05 s
+# - local current noise: same procedure
+# - propagation to equivalent resistance
+# - 3σ robust precision interval
+# - separate raw-sample envelope over 19.75–20.05 s
+#
+# The authoritative generated CSVs are packaged with R10.
