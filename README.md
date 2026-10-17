@@ -1,0 +1,69 @@
+# Finite-Band EIS Pulse Certifiability
+
+Reviewer-facing reproducibility repository for the manuscript:
+
+**Certifiability Before Prediction: Finite-Band EIS Bounds for Lithium-Ion Battery Pulse Diagnostics**
+
+This repository contains the analysis code and derived tables used for the finite-band EIS-to-pulse certifiability study. It intentionally does **not** redistribute the original third-party RWTH Aachen raw dataset.
+
+## Author
+
+Ghassan Malkawi  
+Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.  
+ORCID: 0000-0002-5320-7561
+
+## Source data
+
+The source dataset is publicly available from RWTH Aachen University:
+
+- DOI: https://doi.org/10.18154/RWTH-2025-04811
+
+For scripts that replay raw-trace or EIS calculations, download the official source archive and place the original `MatFiles.zip` in the repository root.
+
+Expected `MatFiles.zip` SHA-256:
+
+`875c266c9ac163d02803d3354453509bcd06e9255c1d063dc8ee97c9e0879e0f`
+
+Run:
+
+```bash
+python verify_raw_data.py
+```
+
+before any raw-data-dependent replay.
+
+## Contents
+
+- `*.py` - analysis and validation scripts.
+- `*.csv` - derived case-level tables and audit outputs used by the manuscript and Supporting Information.
+- `RWTH_Data_Integrity_Manifest.txt` - source archive integrity record.
+- `R10_DATA_DERIVED_PRECISION_METHOD.txt` - precision-audit method note.
+- `R19_SELECTION_AND_EQ9_README.txt` - selection/Eq. (9) technical note.
+
+## Python dependencies
+
+Install the required packages with:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+The scripts use Python with NumPy, pandas, SciPy, matplotlib, and mpmath.
+
+## Reproduction notes
+
+Run scripts from the repository root. Some scripts use only the included derived tables; others require the official `MatFiles.zip` source archive.
+
+Examples that can be run directly from the included derived tables:
+
+```bash
+python R19_build_historical_selection_matrix.py
+python R23_compute_vehicle_design_table.py
+python R25_build_adaptive_fast_eis_map.py
+```
+
+Raw-data-dependent scripts will stop if `MatFiles.zip` is absent. The original raw data are not committed to this repository.
+
+## Scientific scope
+
+The repository reproduces the finite-band information-radius calculations, tolerance-sensitivity analyses, representative continuum-validation checks, and retrospective/adaptive fast-EIS screening analyses reported in the manuscript. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the submitted paper.
