@@ -34,8 +34,9 @@ before any raw-data-dependent replay.
 
 ## Contents
 
-- `*.py` - analysis and validation scripts.
-- `*.csv` - derived case-level tables and audit outputs used by the manuscript and Supporting Information.
+- **12 Python scripts** in the repository root for analysis, validation, and source-integrity checks.
+- **28 derived CSV tables** in `derived_data/`, with the principal script inputs also mirrored at the repository root for direct replay.
+- The repository contains derived/reproducibility materials only; it does not contain the original third-party RWTH raw archive.
 - `RWTH_Data_Integrity_Manifest.txt` - source archive integrity record.
 - `R10_DATA_DERIVED_PRECISION_METHOD.txt` - precision-audit method note.
 - `R19_SELECTION_AND_EQ9_README.txt` - selection/Eq. (9) technical note.
@@ -48,7 +49,7 @@ Install the required packages with:
 python -m pip install -r requirements.txt
 ```
 
-The scripts use Python with NumPy, pandas, SciPy, matplotlib, and mpmath.
+The scripts use Python with NumPy, pandas, SciPy, matplotlib, and mpmath. Reviewer-facing files are directly browsable because the repository is public.
 
 ## Reproduction notes
 
