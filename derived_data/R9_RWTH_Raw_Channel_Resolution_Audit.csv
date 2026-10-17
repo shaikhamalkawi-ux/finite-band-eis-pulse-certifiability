@@ -1,0 +1,4 @@
+channel,unit,minimum_positive_spacing,representative_small_spacing,median_unique_spacing,interpretation
+Voltage channel,V,5.8642e-05,6.01e-05,0.00010077,Observed digital spacing/resolution indicator only; not absolute accuracy
+Current channel,A,1.5379e-05,0.000332985,0.000998955,Common fine increment ≈0.333 mA; resolution indicator only
+Temperature channel,degC,0.109489,0.109489,0.109489,Observed reported increment; not chamber accuracy
