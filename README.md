@@ -6,12 +6,6 @@ Reviewer-facing reproducibility repository for the manuscript:
 
 This repository contains the analysis code and derived tables used for the finite-band EIS-to-pulse certifiability study. It intentionally does **not** redistribute the original third-party RWTH Aachen raw dataset.
 
-## Author
-
-Ghassan Malkawi  
-Faculty of Computer Information Science, Higher Colleges of Technology, Al Ain, United Arab Emirates.  
-ORCID: 0000-0002-5320-7561
-
 ## Source data
 
 The source dataset is publicly available from RWTH Aachen University:
@@ -67,4 +61,4 @@ Raw-data-dependent scripts will stop if `MatFiles.zip` is absent. The original r
 
 ## Scientific scope
 
-The repository reproduces the finite-band information-radius calculations, tolerance-sensitivity analyses, representative continuum-validation checks, and retrospective/adaptive fast-EIS screening analyses reported in the manuscript. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the submitted paper.
+The repository reproduces the finite-band information-radius calculations, tolerance-sensitivity analyses, representative continuum-validation checks, and retrospective/adaptive fast-EIS screening analyses reported in the manuscript. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the manuscript.
