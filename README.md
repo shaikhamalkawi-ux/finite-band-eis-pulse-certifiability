@@ -4,6 +4,12 @@ Reviewer-facing reproducibility repository for the manuscript:
 
 **Certifiability Before Prediction: Finite-Band EIS Bounds for Lithium-Ion Battery Pulse Diagnostics**
 
+## Current reviewer archive (R37)
+
+The all-case directed-rounding verifier and systematic-correction sensitivity are supplied in the accompanying **`Batteries_R37_Reviewer_Replay.zip`**, SHA-256 `277c73ff96923904d9eff9980dece66b52d4484add76b1913b9944962a06e1a1`. See [the R37 reviewer guide and exact manuscript/archive pairing](reviewer_tools/R37/README.md) and [the archive checker](reviewer_tools/R37/verify_review_archive.py).
+
+**This repository does not yet mirror the complete R36/R37 archive.** The files below are the earlier public analysis layer; in particular, the old representative-case verifier is not the new all-42 verifier. For full review, use the computational archive accompanying the manuscript, not the manuscript PDFs alone. The new result is paired-reference model-set exclusion, not an EIS-only stopping policy, calibrated instrument validation or a multiple-cell population claim.
+
 This repository contains the analysis code and derived tables used for the finite-band EIS-to-pulse certifiability study. It intentionally does **not** redistribute the original third-party RWTH Aachen raw dataset.
 
 ## Source data
