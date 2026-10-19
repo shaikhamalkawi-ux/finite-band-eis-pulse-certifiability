@@ -1,0 +1,26 @@
+[
+  {
+    "cell": "F0001",
+    "bytes": 16057058,
+    "md5": "8181a89aee2e525ca52b60491ee3209b",
+    "sha256": "ad9527ab6f56c18e6e802d2820b5f53679ea6405844031e304a6cd7725a7f066",
+    "producer_MD5_matches": true,
+    "CRC_pass": true
+  },
+  {
+    "cell": "F0002",
+    "bytes": 21349140,
+    "md5": "3eaca9d8eff8ccf2d1caf55575a3af76",
+    "sha256": "6fbfa6575afe0f7caa4ddfe81e76a8891b19e65502c3c0362bce503f4a702007",
+    "producer_MD5_matches": true,
+    "CRC_pass": true
+  },
+  {
+    "cell": "F0003",
+    "bytes": 18026931,
+    "md5": "4f3c7587d697b2b863b36a13a7ab8f25",
+    "sha256": "e97f980f5e154f6da67f609308601d32574ce2b1beebf657897916676f47fef2",
+    "producer_MD5_matches": true,
+    "CRC_pass": true
+  }
+]

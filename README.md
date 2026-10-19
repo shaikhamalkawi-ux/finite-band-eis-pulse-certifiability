@@ -4,7 +4,13 @@ Reviewer-facing reproducibility repository for the manuscript:
 
 **Certifiability Before Prediction: Finite-Band EIS Bounds for Lithium-Ion Battery Pulse Diagnostics**
 
-## Current reviewer archive (R37)
+## Current research release: R38 EP1 (October 2026)
+
+The current submission-prepared study adds an external-cell **conditional** validation layer to the original RWTH 42-case findings. Reproducibility materials, including the final compiled **3.75 MB** computational archive in four integrity-checked pieces and the runnable external verifier, are in **[reviewer_tools/R38](reviewer_tools/R38/README.md)**.
+
+The external layer includes 3 Bayreuth cells (12 operating cases; 24 case–tolerance witnesses). It does not imply manufacturer instrument calibration, guaranteed cell-state continuity over long EIS–pulse delays, 12 independent cell replicates, or prospective EIS-only stopping. The original RWTH and Bayreuth **raw** source ZIPs and private correspondence are not included. The manuscript itself is not deposited here. Please cite the source data DOI(s) and paper when reusing published data.
+
+## Historical reviewer archive (R37)
 
 The all-case directed-rounding verifier and systematic-correction sensitivity are supplied in the accompanying **`Batteries_R37_Reviewer_Replay.zip`**, SHA-256 `277c73ff96923904d9eff9980dece66b52d4484add76b1913b9944962a06e1a1`. See [the R37 reviewer guide and exact manuscript/archive pairing](reviewer_tools/R37/README.md) and [the archive checker](reviewer_tools/R37/verify_review_archive.py).
 
@@ -67,4 +73,4 @@ Raw-data-dependent scripts will stop if `MatFiles.zip` is absent. The original r
 
 ## Scientific scope
 
-The repository reproduces the finite-band information-radius calculations, tolerance-sensitivity analyses, representative continuum-validation checks, and retrospective/adaptive fast-EIS screening analyses reported in the manuscript. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the manuscript.
+The root-level legacy files reproduce earlier finite-band analyses and screening methods. The R38 verifier, full saved case–tolerance witness archives, all-case full-domain checks, and external Bayreuth data evaluations are available under reviewer_tools/R38. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the manuscript.

@@ -1,0 +1,18 @@
+{
+  "checks": {
+    "24_unique_case_factor_pairs": true,
+    "24_double_method_certificates": true,
+    "objective_independent_interval": true,
+    "finite_and_both_endpoints": true,
+    "independent_both_tail_bounds": true,
+    "recorded_envelopes_excluded": true,
+    "48_complete_interval_partitions": true,
+    "12_invalid_controls_rejected": true,
+    "12_invalid_points_certified_negative": true,
+    "negative_controls_isolate_compact_interior": true,
+    "symbolic_kernel_derivatives": true
+  },
+  "passed": 11,
+  "total": 11,
+  "overall_pass": true
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "scope": "all12",
+    "alpha": 1.0,
+    "cases": 12,
+    "verified": 12,
+    "envelope_excluded": 12,
+    "min_point_gap_mOhm": 3.3022926620702684,
+    "min_envelope_gap_mOhm": 2.473780991994886,
+    "min_envelope_case": "F0002_BOL_charge"
+  },
+  {
+    "scope": "all12",
+    "alpha": 2.0,
+    "cases": 12,
+    "verified": 12,
+    "envelope_excluded": 12,
+    "min_point_gap_mOhm": 1.9542818477993245,
+    "min_envelope_gap_mOhm": 0.4169090151465298,
+    "min_envelope_case": "F0001_EOL_charge"
+  },
+  {
+    "scope": "without_F0001_EOL10",
+    "alpha": 1.0,
+    "cases": 10,
+    "verified": 10,
+    "envelope_excluded": 10,
+    "min_point_gap_mOhm": 3.3022926620702684,
+    "min_envelope_gap_mOhm": 2.473780991994886,
+    "min_envelope_case": "F0002_BOL_charge"
+  },
+  {
+    "scope": "without_F0001_EOL10",
+    "alpha": 2.0,
+    "cases": 10,
+    "verified": 10,
+    "envelope_excluded": 10,
+    "min_point_gap_mOhm": 1.9542818477993245,
+    "min_envelope_gap_mOhm": 1.1257701777240072,
+    "min_envelope_case": "F0002_BOL_charge"
+  }
+]

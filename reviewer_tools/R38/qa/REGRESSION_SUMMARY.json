@@ -1,0 +1,63 @@
+{
+  "checks": {
+    "signed_known_positive_160": true,
+    "signed_known_positive_256": true,
+    "six_original_R36_positive_waveform_regressions": true,
+    "gap_in_waveform_rejected": true,
+    "negative_frequency_rejected": true,
+    "nonfinite_waveform_rejected": true,
+    "trailing_text_rejected": true
+  },
+  "overall_pass": true,
+  "original_cases": [
+    {
+      "case_id": "SOC30_discharge_0.7C",
+      "alpha": 1.0,
+      "passed": true,
+      "old_bound_mOhm": 74.73353129638922,
+      "new_bound_mOhm": 74.73353129638922,
+      "difference_mOhm": 0.0
+    },
+    {
+      "case_id": "SOC50_charge_1.0C",
+      "alpha": 1.0,
+      "passed": true,
+      "old_bound_mOhm": 74.90604199468169,
+      "new_bound_mOhm": 74.90604199468169,
+      "difference_mOhm": 0.0
+    },
+    {
+      "case_id": "SOC70_charge_1.4C",
+      "alpha": 1.0,
+      "passed": true,
+      "old_bound_mOhm": 80.48245899058001,
+      "new_bound_mOhm": 80.48245899058001,
+      "difference_mOhm": 0.0
+    },
+    {
+      "case_id": "SOC30_discharge_0.7C",
+      "alpha": 2.0,
+      "passed": true,
+      "old_bound_mOhm": 73.50675361580727,
+      "new_bound_mOhm": 73.50675361580727,
+      "difference_mOhm": 0.0
+    },
+    {
+      "case_id": "SOC50_charge_1.0C",
+      "alpha": 2.0,
+      "passed": true,
+      "old_bound_mOhm": 73.67049500597334,
+      "new_bound_mOhm": 73.67049500597334,
+      "difference_mOhm": 0.0
+    },
+    {
+      "case_id": "SOC70_charge_1.4C",
+      "alpha": 2.0,
+      "passed": true,
+      "old_bound_mOhm": 78.9565923018352,
+      "new_bound_mOhm": 78.9565923018352,
+      "difference_mOhm": 0.0
+    }
+  ],
+  "note": "Six prior witnesses are regression controls only; not a new all-84 replay."
+}

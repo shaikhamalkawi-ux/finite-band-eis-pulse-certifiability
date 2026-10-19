@@ -1,0 +1,33 @@
+{
+  "archive_name": "Project52_Batteries_R38_OJVT_FINAL_Computational_Supplement.zip",
+  "archive_bytes": 3747969,
+  "archive_sha256": "e8b47aad8f1698a8af614a93403c522a6c735639638cde9b0786e8091a3da347",
+  "archive_git_blob_sha1": "dd37ae0d9d920d4558a67d8fc048ce880706c215",
+  "parts": [
+    {
+      "filename": "archive_part_01.bin",
+      "bytes": 950000,
+      "sha256": "7db955bb963db109a69e8ab30961b56adf5f0b9c175f3cd308b93a809862b491",
+      "git_blob_sha1": "96843f9040c1371cb19dfc189265128aa2de56e9"
+    },
+    {
+      "filename": "archive_part_02.bin",
+      "bytes": 950000,
+      "sha256": "8fd3adc7d556d689d5f651fe520e7f7eef815d0b5ca82103c800738806dcbca2",
+      "git_blob_sha1": "50d3d325237f4985a47002d78248c42b3c7bd814"
+    },
+    {
+      "filename": "archive_part_03.bin",
+      "bytes": 950000,
+      "sha256": "4c2febf6f13dad706b8a02520cda009acde34cc7b4360294063ee856294fa94e",
+      "git_blob_sha1": "0e10cba2d868a58408c35623c6970323fe3e4d1c"
+    },
+    {
+      "filename": "archive_part_04.bin",
+      "bytes": 897969,
+      "sha256": "f1a83b5a2165c598b5a50f73730d207231c7c71fcef00ab70552294badae3e78",
+      "git_blob_sha1": "c6611da492d836b999d0f42acf20a71dfe183f23"
+    }
+  ],
+  "notes": "Public reviewer computational reproducibility only. No original RWTH or Bayreuth large raw data archives or private correspondence are included."
+}
