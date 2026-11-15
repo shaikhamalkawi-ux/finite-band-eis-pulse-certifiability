@@ -1,0 +1,45 @@
+Checking 336 MPFR proof runs (force fresh: True )
+PASS 28 / 336 elapsed_s 3.4
+PASS 56 / 336 elapsed_s 5.1
+PASS 84 / 336 elapsed_s 7.1
+PASS 112 / 336 elapsed_s 9.8
+PASS 140 / 336 elapsed_s 13.8
+PASS 168 / 336 elapsed_s 18.3
+PASS 196 / 336 elapsed_s 20.5
+PASS 224 / 336 elapsed_s 21.9
+PASS 252 / 336 elapsed_s 23.9
+PASS 280 / 336 elapsed_s 27.0
+PASS 308 / 336 elapsed_s 31.0
+PASS 336 / 336 elapsed_s 33.9
+FINAL {
+  "status": "PASS",
+  "fresh_MPFR_validations": 336,
+  "source_R39_verified_certificates": 84,
+  "MPFR_methods": [
+    "taylor160",
+    "meanvalue256"
+  ],
+  "per_case": {
+    "min_freq": 15,
+    "median_freq": 18.0,
+    "max_freq": 21,
+    "source_orig_freq": 48,
+    "certificates": 84,
+    "replay_checks": 168
+  },
+  "soc_union": {
+    "min_freq": 24,
+    "median_freq": 28.0,
+    "max_freq": 30,
+    "source_orig_freq": 48,
+    "certificates": 84,
+    "replay_checks": 168
+  },
+  "max_abs_certified_lower_difference_mOhm": 0.0,
+  "minimum_verified_point_gap_mOhm": 0.07698752085726289,
+  "all_positive_gaps": true,
+  "non_vacuity": "Original EIS full-spectrum primal feasibility preserved after dropping constraints",
+  "scope": "Retrospective EIS frequency-subset witness transport at frozen R39 full-band tolerance; not full re-optimization or prospective time saving",
+  "last_verification_runtime_seconds": 33.87,
+  "last_verification_fresh_rerun": true
+}

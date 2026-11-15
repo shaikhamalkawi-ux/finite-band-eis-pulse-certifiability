@@ -1,0 +1,89 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "case": "SOC70_charge_1.4C",
+      "alpha": 1,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 11.439968619709976
+    },
+    {
+      "case": "SOC70_charge_1.4C",
+      "alpha": 1,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 11.439968619709976
+    },
+    {
+      "case": "SOC70_charge_1.4C",
+      "alpha": 2,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 10.060984106062538
+    },
+    {
+      "case": "SOC70_charge_1.4C",
+      "alpha": 2,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 10.060984106062538
+    },
+    {
+      "case": "SOC80_charge_1.0C",
+      "alpha": 1,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 8.34593734056939
+    },
+    {
+      "case": "SOC80_charge_1.0C",
+      "alpha": 1,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 8.34593734056939
+    },
+    {
+      "case": "SOC80_charge_1.0C",
+      "alpha": 2,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 6.948577644842043
+    },
+    {
+      "case": "SOC80_charge_1.0C",
+      "alpha": 2,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 6.948577644842043
+    },
+    {
+      "case": "SOC80_charge_1.4C",
+      "alpha": 1,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 8.310341076510047
+    },
+    {
+      "case": "SOC80_charge_1.4C",
+      "alpha": 1,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 8.310341076510047
+    },
+    {
+      "case": "SOC80_charge_1.4C",
+      "alpha": 2,
+      "mode": "taylor160",
+      "pass": true,
+      "gap": 6.903442124101809
+    },
+    {
+      "case": "SOC80_charge_1.4C",
+      "alpha": 2,
+      "mode": "meanvalue256",
+      "pass": true,
+      "gap": 6.903442124101809
+    }
+  ]
+}

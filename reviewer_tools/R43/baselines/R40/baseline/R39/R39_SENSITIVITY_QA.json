@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "cases": 42,
+  "witnesses": 84,
+  "scenarios": 13104,
+  "summaries": 312,
+  "budget_entries": 168,
+  "recorded_range": "Fixed 5\u201315 s median current reference with recorded local voltage-sample envelope. No metrological calibration."
+}

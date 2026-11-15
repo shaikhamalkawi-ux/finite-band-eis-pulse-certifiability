@@ -1,0 +1,7 @@
+# Tested processing environment (R41 evidence/LaTeX source regeneration)
+# Python 3.13.5; LaTeX IEEEtran / TeX Live 2025; C++17 + MPFR 4.2.x + GMP 6.x
+numpy==2.3.5
+pandas==2.3.5
+mpmath==1.3.0
+PyMuPDF==1.26.7
+# scipy is not used by the R41 proof replay; optional inherited R40 numerical analyses need scipy.

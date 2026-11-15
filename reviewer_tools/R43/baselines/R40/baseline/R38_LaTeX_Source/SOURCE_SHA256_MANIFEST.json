@@ -1,0 +1,20 @@
+{
+  "scope": "R38 EP1 source files, excluding this manifest",
+  "sha256": {
+    "README.txt": "a3565a11083b69da461e7e1be097d14827f27fa54b145008b7140f8ec8f68773",
+    "all42_validation_appendix.tex": "4e08a26c261fb918c8876f3fa7cfc57998a85d310b57cf5d7598eab4de075672",
+    "calibration_sensitivity_appendix.tex": "1abfd842321d263304fe4128d56ec19bea23881024715ce80abdca7b5c462696",
+    "cover_letter.tex": "c7e572c7ee020a55524459386b2e487db17e4a1c9da38e2bcd8dd48f73c11c77",
+    "external_validation_appendix.tex": "f68d49df9f986bdb3c7fe588a5f9443ebfdd1d3c706bdda8b6f1edf70b52c7e9",
+    "figures/fig01_primary_gap_vs_soc.png": "29396821f150eb6d108092df4ebc73a1132ba6bf62a89f977796bd35b8057784",
+    "figures/fig02_tang_upper_bound_comparison.png": "1831bd20110fb6ce78e350f11d72f5e4e2a923967bd57e8d4db539dacd724632",
+    "figures/fig03_fast_eis_decision_retention.png": "b8aff72ace7abba1e46b05172b2120673e6e752a236440ab2ce24e03ceecb0c9",
+    "figures/fig04_adaptive_fast_eis_map.png": "99bae83ca5995bfa4f60bb952ac1579c69862487733693c9128bb11cc2a544df",
+    "figures/fig05_temperature_trend.png": "cc8cf9cb40225bbc9f2fa2d90740246c611eb11ece85df62a7153741def9ed7d",
+    "figures/fig06_tolerance_multiplier_survival.png": "5b849033ff1c6ac46ad6348e0d280d0798685dfee41d96ed1e4fafd973d546f3",
+    "figures/figS1_historical_selection_screen.png": "a5944e2f4620108ecc767e8e4c8e666e9c8bbdb4a5b66d00a4db587bf3846fa4",
+    "figures/figS2_precision_vs_residual_gap.png": "5a32d0e190c841f470310a0be544c21a64204a9bf75692b5e5fbde8a3169772d",
+    "main.tex": "ab49178f9e1d904f8d57bbecc9feb1c8cbf77dfcd22422c5f0982582aa1c867b",
+    "supplementary.tex": "83ef71b3dcf802ba5a5ab3eecd0a9d3fd36454095bed04e7228bc99deec5780c"
+  }
+}

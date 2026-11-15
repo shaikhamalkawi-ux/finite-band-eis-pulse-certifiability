@@ -1,0 +1,20 @@
+--- R36/interval_verify.cpp
++++ E3/interval_verify_signed.cpp
+@@ -67,7 +67,7 @@
+   if(!in || n<1 || n>10000 || p<1 || p>100000 || !std::isfinite(T) || T<=0 || !std::isfinite(iT) || !std::isfinite(eps) || eps<=0 || !std::isfinite(meas) || !std::isfinite(alpha) || alpha<=0) throw std::runtime_error("invalid header");
+   double previous_end=0;
+   for(int k=0;k<n;k++){double f,r,i,yrr,yii;in>>f>>r>>i>>yrr>>yii;if(!in || !std::isfinite(f) || f<=0 || !std::isfinite(r) || !std::isfinite(i) || !std::isfinite(yrr) || !std::isfinite(yii))throw std::runtime_error("invalid frequency row");w.push_back(Iv(2)*pi()*Iv(f));zr.emplace_back(r);zi.emplace_back(i);yr.emplace_back(yrr);yi.emplace_back(yii);}
+-  for(int j=0;j<p;j++){double a,b,v;in>>a>>b>>v;if(!in || !std::isfinite(a) || !std::isfinite(b) || !std::isfinite(v) || !(a<b&&v>0&&a==previous_end&&b<=T))throw std::runtime_error("bad waveform");previous_end=b;aa.emplace_back(a);bb.emplace_back(b);u.emplace_back(v);Q=Q+Iv(v)*(Iv(b)-Iv(a));M1=M1+Iv(v)*(sq(Iv(T)-Iv(a))-sq(Iv(T)-Iv(b)))/Iv(2);}
++  for(int j=0;j<p;j++){double a,b,v;in>>a>>b>>v;if(!in || !std::isfinite(a) || !std::isfinite(b) || !std::isfinite(v) || !(a<b&&a==previous_end&&b<=T))throw std::runtime_error("bad waveform");previous_end=b;aa.emplace_back(a);bb.emplace_back(b);u.emplace_back(v);Q=Q+Iv(v)*(Iv(b)-Iv(a));M1=M1+absi(Iv(v))*(sq(Iv(T)-Iv(a))-sq(Iv(T)-Iv(b)))/Iv(2);}
+   if(!in || previous_end!=T)throw std::runtime_error("incomplete waveform");std::string extra;if(in>>extra)throw std::runtime_error("trailing input");last=u.back();
+   delay.push_back(Iv(T)-aa[0]);jump.push_back(-u[0]);
+   for(int j=1;j<p;j++){Iv d=u[j-1]-u[j];if(d.lower()!=0||d.upper()!=0){delay.push_back(Iv(T)-aa[j]);jump.push_back(d);}}
+@@ -97,7 +97,7 @@
+   return s;
+  }
+  Iv largetail(double xh)const{
+-  // r(1/z)/z = H(z), 0<=z<=exp(-xh). e^-q >= 1-q, all waveform values >0.
++  // r(1/z)/z = H(z). For signed u, |exp(-q)-1|<=q; M1 integrates |u|*(T-s).
+   Iv z=expi(Iv(-xh)),s=finite()[2]-z*M1;
+   for(int k=0;k<n;k++)s=s-absi(yr[k])*z/sq(w[k])-absi(yi[k])*sq(z)/(sq(w[k])*w[k]);
+   return s;

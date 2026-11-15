@@ -1,0 +1,44 @@
+[
+  {
+    "cell": "F0001",
+    "stage": "BOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009999005197785715,
+    "passed": true
+  },
+  {
+    "cell": "F0001",
+    "stage": "EOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009998863912232142,
+    "passed": true
+  },
+  {
+    "cell": "F0002",
+    "stage": "BOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009999490291368145,
+    "passed": true
+  },
+  {
+    "cell": "F0002",
+    "stage": "EOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009999792748435542,
+    "passed": true
+  },
+  {
+    "cell": "F0003",
+    "stage": "BOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009998819981967733,
+    "passed": true
+  },
+  {
+    "cell": "F0003",
+    "stage": "EOL",
+    "constraints": 142,
+    "minimum_slack_mOhm": 0.0009999485557225024,
+    "passed": true
+  }
+]

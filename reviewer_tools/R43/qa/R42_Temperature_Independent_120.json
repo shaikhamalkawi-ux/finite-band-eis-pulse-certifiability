@@ -1,0 +1,602 @@
+[
+  {
+    "case": "T15_SOC50_charge_0.7C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_charge_0.7C_n1201_upper",
+    "excess_mOhm": 2.1747218470480334e-09,
+    "objective_difference_mOhm": 3.0592569544296566e-07
+  },
+  {
+    "case": "T15_SOC50_charge_0.7C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T15_SOC50_charge_0.7C_n2401_upper",
+    "excess_mOhm": 2.3935476933800715e-09,
+    "objective_difference_mOhm": 3.1954733969996596e-07
+  },
+  {
+    "case": "T15_SOC50_charge_1.0C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_charge_1.0C_n1201_upper",
+    "excess_mOhm": 2.1747218470480334e-09,
+    "objective_difference_mOhm": 3.0681793816711433e-07
+  },
+  {
+    "case": "T15_SOC50_charge_1.0C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T15_SOC50_charge_1.0C_n2401_upper",
+    "excess_mOhm": 2.3935476933800715e-09,
+    "objective_difference_mOhm": 3.2158721552377756e-07
+  },
+  {
+    "case": "T15_SOC50_charge_1.4C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_charge_1.4C_n1201_upper",
+    "excess_mOhm": 2.1747218470480334e-09,
+    "objective_difference_mOhm": 3.098594092421081e-07
+  },
+  {
+    "case": "T15_SOC50_charge_1.4C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T15_SOC50_charge_1.4C_n2401_upper",
+    "excess_mOhm": 2.3935334825253562e-09,
+    "objective_difference_mOhm": 3.21028210237273e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_0.7C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_discharge_0.7C_n1201_upper",
+    "excess_mOhm": 2.1747218470480334e-09,
+    "objective_difference_mOhm": 2.930019817881657e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_0.7C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T15_SOC50_discharge_0.7C_n2401_upper",
+    "excess_mOhm": 2.3935476933800715e-09,
+    "objective_difference_mOhm": 3.180023355753292e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_1.0C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T15_SOC50_discharge_1.0C_n1201_upper",
+    "excess_mOhm": 2.1747573741848214e-09,
+    "objective_difference_mOhm": 3.077923835803631e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_1.0C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T15_SOC50_discharge_1.0C_n2401_upper",
+    "excess_mOhm": 2.3935476933800715e-09,
+    "objective_difference_mOhm": 3.220402433612435e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_1.4C_n1201_lower",
+    "excess_mOhm": 1.0555282203839056e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_discharge_1.4C_n1201_upper",
+    "excess_mOhm": 2.1747573741848214e-09,
+    "objective_difference_mOhm": 3.094225462518807e-07
+  },
+  {
+    "case": "T15_SOC50_discharge_1.4C_n2401_lower",
+    "excess_mOhm": 1.058796716968402e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T15_SOC50_discharge_1.4C_n2401_upper",
+    "excess_mOhm": 2.3935476933800715e-09,
+    "objective_difference_mOhm": 3.214121022665495e-07
+  },
+  {
+    "case": "T25_SOC50_charge_0.7C_n1201_lower",
+    "excess_mOhm": 1.6174224182208263e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_charge_0.7C_n1201_upper",
+    "excess_mOhm": 3.5020553124098797e-09,
+    "objective_difference_mOhm": 2.780572927463254e-07
+  },
+  {
+    "case": "T25_SOC50_charge_0.7C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T25_SOC50_charge_0.7C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.895485948783971e-07
+  },
+  {
+    "case": "T25_SOC50_charge_1.0C_n1201_lower",
+    "excess_mOhm": 1.6174224182208263e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T25_SOC50_charge_1.0C_n1201_upper",
+    "excess_mOhm": 3.5020553124098797e-09,
+    "objective_difference_mOhm": 2.789470840980357e-07
+  },
+  {
+    "case": "T25_SOC50_charge_1.0C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T25_SOC50_charge_1.0C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.9032167248033147e-07
+  },
+  {
+    "case": "T25_SOC50_charge_1.4C_n1201_lower",
+    "excess_mOhm": 1.6174224182208263e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_charge_1.4C_n1201_upper",
+    "excess_mOhm": 3.5020553124098797e-09,
+    "objective_difference_mOhm": 2.7749381104058557e-07
+  },
+  {
+    "case": "T25_SOC50_charge_1.4C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_charge_1.4C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.893012123195149e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_0.7C_n1201_lower",
+    "excess_mOhm": 1.6180192741188648e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_0.7C_n1201_upper",
+    "excess_mOhm": 3.502048206982522e-09,
+    "objective_difference_mOhm": 2.6759858684499704e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_0.7C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_0.7C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.819694415734375e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_1.0C_n1201_lower",
+    "excess_mOhm": 1.6174224182208263e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_1.0C_n1201_upper",
+    "excess_mOhm": 3.5020553124098797e-09,
+    "objective_difference_mOhm": 2.79849849960101e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_1.0C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_1.0C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.9050290351051444e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_1.4C_n1201_lower",
+    "excess_mOhm": 1.6174224182208263e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_1.4C_n1201_upper",
+    "excess_mOhm": 3.5020553124098797e-09,
+    "objective_difference_mOhm": 2.778844319095697e-07
+  },
+  {
+    "case": "T25_SOC50_discharge_1.4C_n2401_lower",
+    "excess_mOhm": 1.622218581687207e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T25_SOC50_discharge_1.4C_n2401_upper",
+    "excess_mOhm": 3.854797148150624e-09,
+    "objective_difference_mOhm": 2.9101204290782334e-07
+  },
+  {
+    "case": "T35_SOC50_charge_0.7C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T35_SOC50_charge_0.7C_n1201_upper",
+    "excess_mOhm": 1.7030527321715283e-08,
+    "objective_difference_mOhm": 2.5762591349121067e-07
+  },
+  {
+    "case": "T35_SOC50_charge_0.7C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T35_SOC50_charge_0.7C_n2401_upper",
+    "excess_mOhm": 1.4890001343026427e-08,
+    "objective_difference_mOhm": 2.6841910027997073e-07
+  },
+  {
+    "case": "T35_SOC50_charge_1.0C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_charge_1.0C_n1201_upper",
+    "excess_mOhm": 1.7030527321715283e-08,
+    "objective_difference_mOhm": 2.577233786382749e-07
+  },
+  {
+    "case": "T35_SOC50_charge_1.0C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_charge_1.0C_n2401_upper",
+    "excess_mOhm": 1.4890001343026427e-08,
+    "objective_difference_mOhm": 2.6844648459700693e-07
+  },
+  {
+    "case": "T35_SOC50_charge_1.4C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_charge_1.4C_n1201_upper",
+    "excess_mOhm": 1.7030527321715283e-08,
+    "objective_difference_mOhm": 2.570711217231292e-07
+  },
+  {
+    "case": "T35_SOC50_charge_1.4C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_charge_1.4C_n2401_upper",
+    "excess_mOhm": 1.4890001343026427e-08,
+    "objective_difference_mOhm": 2.695793952511849e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_0.7C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_discharge_0.7C_n1201_upper",
+    "excess_mOhm": 1.7030526433536863e-08,
+    "objective_difference_mOhm": 2.5478335885509296e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_0.7C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T35_SOC50_discharge_0.7C_n2401_upper",
+    "excess_mOhm": 1.4890001343026427e-08,
+    "objective_difference_mOhm": 2.5760873256786e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_1.0C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_discharge_1.0C_n1201_upper",
+    "excess_mOhm": 1.7030527321715283e-08,
+    "objective_difference_mOhm": 2.58024606125673e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_1.0C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_discharge_1.0C_n2401_upper",
+    "excess_mOhm": 1.4889999566669587e-08,
+    "objective_difference_mOhm": 2.697121104233702e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_1.4C_n1201_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T35_SOC50_discharge_1.4C_n1201_upper",
+    "excess_mOhm": 1.7030526433536863e-08,
+    "objective_difference_mOhm": 2.572350012997049e-07
+  },
+  {
+    "case": "T35_SOC50_discharge_1.4C_n2401_lower",
+    "excess_mOhm": 7.942368984714676e-11,
+    "objective_difference_mOhm": 7.105427357601002e-15
+  },
+  {
+    "case": "T35_SOC50_discharge_1.4C_n2401_upper",
+    "excess_mOhm": 1.4890001343026427e-08,
+    "objective_difference_mOhm": 2.693012532972716e-07
+  },
+  {
+    "case": "T45_SOC50_charge_0.7C_n1201_lower",
+    "excess_mOhm": 1.2490009027033011e-14,
+    "objective_difference_mOhm": 3.552713678800501e-15
+  },
+  {
+    "case": "T45_SOC50_charge_0.7C_n1201_upper",
+    "excess_mOhm": 3.1109497755643645e-09,
+    "objective_difference_mOhm": 2.4572084100782376e-07
+  },
+  {
+    "case": "T45_SOC50_charge_0.7C_n2401_lower",
+    "excess_mOhm": 1.9595436384634013e-14,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T45_SOC50_charge_0.7C_n2401_upper",
+    "excess_mOhm": 3.42420675147892e-09,
+    "objective_difference_mOhm": 2.575506456992116e-07
+  },
+  {
+    "case": "T45_SOC50_charge_1.0C_n1201_lower",
+    "excess_mOhm": 1.2490009027033011e-14,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T45_SOC50_charge_1.0C_n1201_upper",
+    "excess_mOhm": 3.1109497755643645e-09,
+    "objective_difference_mOhm": 2.462617274545664e-07
+  },
+  {
+    "case": "T45_SOC50_charge_1.0C_n2401_lower",
+    "excess_mOhm": 3.3806291099836017e-14,
+    "objective_difference_mOhm": 3.552713678800501e-15
+  },
+  {
+    "case": "T45_SOC50_charge_1.0C_n2401_upper",
+    "excess_mOhm": 3.42420675147892e-09,
+    "objective_difference_mOhm": 2.574975042080041e-07
+  },
+  {
+    "case": "T45_SOC50_charge_1.4C_n1201_lower",
+    "excess_mOhm": 1.2490009027033011e-14,
+    "objective_difference_mOhm": 1.0658141036401503e-14
+  },
+  {
+    "case": "T45_SOC50_charge_1.4C_n1201_upper",
+    "excess_mOhm": 3.1109497755643645e-09,
+    "objective_difference_mOhm": 2.485307106780965e-07
+  },
+  {
+    "case": "T45_SOC50_charge_1.4C_n2401_lower",
+    "excess_mOhm": 1.9595436384634013e-14,
+    "objective_difference_mOhm": 3.552713678800501e-15
+  },
+  {
+    "case": "T45_SOC50_charge_1.4C_n2401_upper",
+    "excess_mOhm": 3.4242138569062774e-09,
+    "objective_difference_mOhm": 2.580268230190086e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_0.7C_n1201_lower",
+    "excess_mOhm": 1.8318679906315083e-15,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T45_SOC50_discharge_0.7C_n1201_upper",
+    "excess_mOhm": 3.110942670137007e-09,
+    "objective_difference_mOhm": 2.402303422854857e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_0.7C_n2401_lower",
+    "excess_mOhm": 1.9595436384634013e-14,
+    "objective_difference_mOhm": 3.552713678800501e-15
+  },
+  {
+    "case": "T45_SOC50_discharge_0.7C_n2401_upper",
+    "excess_mOhm": 3.4242138569062774e-09,
+    "objective_difference_mOhm": 2.477915259646579e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_1.0C_n1201_lower",
+    "excess_mOhm": 1.2490009027033011e-14,
+    "objective_difference_mOhm": 3.552713678800501e-15
+  },
+  {
+    "case": "T45_SOC50_discharge_1.0C_n1201_upper",
+    "excess_mOhm": 3.110942670137007e-09,
+    "objective_difference_mOhm": 2.4682150723265295e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_1.0C_n2401_lower",
+    "excess_mOhm": 2.3148150063434514e-14,
+    "objective_difference_mOhm": 1.0658141036401503e-14
+  },
+  {
+    "case": "T45_SOC50_discharge_1.0C_n2401_upper",
+    "excess_mOhm": 3.42420675147892e-09,
+    "objective_difference_mOhm": 2.5735148057037804e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_1.4C_n1201_lower",
+    "excess_mOhm": 1.2490009027033011e-14,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T45_SOC50_discharge_1.4C_n1201_upper",
+    "excess_mOhm": 3.1109497755643645e-09,
+    "objective_difference_mOhm": 2.479421539192117e-07
+  },
+  {
+    "case": "T45_SOC50_discharge_1.4C_n2401_lower",
+    "excess_mOhm": 5.384581669432009e-15,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T45_SOC50_discharge_1.4C_n2401_upper",
+    "excess_mOhm": 3.42420675147892e-09,
+    "objective_difference_mOhm": 2.585934453236405e-07
+  },
+  {
+    "case": "T5_SOC50_charge_0.7C_n1201_lower",
+    "excess_mOhm": 8.897204528679481e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T5_SOC50_charge_0.7C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 3.9661271955537813e-07
+  },
+  {
+    "case": "T5_SOC50_charge_0.7C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_charge_0.7C_n2401_upper",
+    "excess_mOhm": 7.591143491580965e-09,
+    "objective_difference_mOhm": 4.1515890814025624e-07
+  },
+  {
+    "case": "T5_SOC50_charge_1.0C_n1201_lower",
+    "excess_mOhm": 8.897204528679481e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T5_SOC50_charge_1.0C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 3.9945939533936325e-07
+  },
+  {
+    "case": "T5_SOC50_charge_1.0C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_charge_1.0C_n2401_upper",
+    "excess_mOhm": 7.591143491580965e-09,
+    "objective_difference_mOhm": 4.172547107827995e-07
+  },
+  {
+    "case": "T5_SOC50_charge_1.4C_n1201_lower",
+    "excess_mOhm": 8.89720808139316e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_charge_1.4C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 4.012593990410096e-07
+  },
+  {
+    "case": "T5_SOC50_charge_1.4C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T5_SOC50_charge_1.4C_n2401_upper",
+    "excess_mOhm": 7.591143491580965e-09,
+    "objective_difference_mOhm": 4.168935703319221e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_0.7C_n1201_lower",
+    "excess_mOhm": 8.897204528679481e-09,
+    "objective_difference_mOhm": 2.842170943040401e-14
+  },
+  {
+    "case": "T5_SOC50_discharge_0.7C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 3.8567864635297155e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_0.7C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_discharge_0.7C_n2401_upper",
+    "excess_mOhm": 7.591143491580965e-09,
+    "objective_difference_mOhm": 4.025833533205514e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_1.0C_n1201_lower",
+    "excess_mOhm": 8.897204528679481e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_discharge_1.0C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 3.9838622001298063e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_1.0C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 0.0
+  },
+  {
+    "case": "T5_SOC50_discharge_1.0C_n2401_upper",
+    "excess_mOhm": 7.591143491580965e-09,
+    "objective_difference_mOhm": 4.162956059872158e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_1.4C_n1201_lower",
+    "excess_mOhm": 8.897204528679481e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_discharge_1.4C_n1201_upper",
+    "excess_mOhm": 7.3053401106193405e-09,
+    "objective_difference_mOhm": 4.019059218762777e-07
+  },
+  {
+    "case": "T5_SOC50_discharge_1.4C_n2401_lower",
+    "excess_mOhm": 8.89975537710086e-09,
+    "objective_difference_mOhm": 1.4210854715202004e-14
+  },
+  {
+    "case": "T5_SOC50_discharge_1.4C_n2401_upper",
+    "excess_mOhm": 7.888123709776096e-09,
+    "objective_difference_mOhm": 4.189077174032718e-07
+  }
+]

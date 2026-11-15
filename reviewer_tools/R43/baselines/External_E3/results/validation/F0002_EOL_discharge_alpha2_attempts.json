@@ -1,0 +1,56 @@
+[
+  {
+    "margin": 0.005,
+    "shift": 0,
+    "validation": {
+      "passed": false,
+      "precision_bits": 160,
+      "mpfr_version": "4.2.2",
+      "mode": 2,
+      "xl": -24,
+      "xh": 8,
+      "certified_lower_mOhm": 627.7396930016114,
+      "certified_lower_upper_round_mOhm": 627.7396930016115,
+      "gap_lower_mOhm": 54.15148152270185,
+      "finite_R0_lower": 0.005000003303309732,
+      "finite_L_lower": 0.06283185307179577,
+      "finite_c_lower": 0.01856198499663906,
+      "fast_tail_lower": 0.005000003259916484,
+      "slow_tail_H_lower": -0.019454971646873872,
+      "compact_residual_lower": 0,
+      "accepted_leaves": 0,
+      "evaluated_bins": 0,
+      "max_depth": 0,
+      "natural_leaves": 0,
+      "mean_value_leaves": 0,
+      "taylor_leaves": 0
+    }
+  },
+  {
+    "margin": 0.005,
+    "shift": 1,
+    "validation": {
+      "passed": true,
+      "precision_bits": 160,
+      "mpfr_version": "4.2.2",
+      "mode": 2,
+      "xl": -25,
+      "xh": 9,
+      "certified_lower_mOhm": 627.7396930016114,
+      "certified_lower_upper_round_mOhm": 627.7396930016115,
+      "gap_lower_mOhm": 54.15148152270185,
+      "finite_R0_lower": 0.005000003303309732,
+      "finite_L_lower": 0.06283185307179577,
+      "finite_c_lower": 0.01856198499663906,
+      "fast_tail_lower": 0.00500000328734634,
+      "slow_tail_H_lower": 0.004610000133421308,
+      "compact_residual_lower": 1.864758815153021e-06,
+      "accepted_leaves": 167,
+      "evaluated_bins": 300,
+      "max_depth": 4,
+      "natural_leaves": 22,
+      "mean_value_leaves": 0,
+      "taylor_leaves": 145
+    }
+  }
+]

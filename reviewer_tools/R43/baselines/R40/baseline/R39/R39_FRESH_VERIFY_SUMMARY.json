@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "cases": 42,
+  "dual_witnesses": 84,
+  "fresh_full_domain_MPFR_runs": 168,
+  "source": "RWTH exact published raw archive",
+  "normalization": "median measured current 5-15s in each pulse",
+  "solver": "No new optimization; original dual witnesses scaled and numerically reverified",
+  "recorded_range": "fixed-normalizer voltage-sample envelope; no calibration or confidence-level interpretation",
+  "all_point_and_sample_envelope_gaps_positive": true,
+  "factor_1": {
+    "min_point_gap_mOhm": 1.303591017472783,
+    "median_point_gap_mOhm": 5.723112539125601,
+    "min_sample_envelope_gap_mOhm": 1.28741290891827,
+    "min_case": "SOC30_discharge_0.7C",
+    "min_sample_case": "SOC30_discharge_0.7C"
+  },
+  "factor_2": {
+    "min_point_gap_mOhm": 0.07698752085725856,
+    "median_point_gap_mOhm": 4.467048232793444,
+    "min_sample_envelope_gap_mOhm": 0.06080941230274561,
+    "min_case": "SOC30_discharge_0.7C",
+    "min_sample_case": "SOC30_discharge_0.7C"
+  }
+}

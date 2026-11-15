@@ -1,0 +1,44 @@
+[
+  {
+    "SOC": 20,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.00012865782789963688
+  },
+  {
+    "SOC": 30,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.0001563232511753696
+  },
+  {
+    "SOC": 40,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.0001580758806330479
+  },
+  {
+    "SOC": 50,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.00015500605106270082
+  },
+  {
+    "SOC": 60,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.00013742022036565538
+  },
+  {
+    "SOC": 70,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.00011424756844645
+  },
+  {
+    "SOC": 80,
+    "eis_coordinates": 96,
+    "positive_margin_verified": true,
+    "minimum_margin_mOhm": 0.0001338715956639592
+  }
+]

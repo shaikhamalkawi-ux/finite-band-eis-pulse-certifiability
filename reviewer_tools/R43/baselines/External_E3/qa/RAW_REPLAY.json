@@ -1,0 +1,80 @@
+{
+  "passed": true,
+  "case_instances": 12,
+  "EIS_instances": 6,
+  "checks": [
+    {
+      "file": "F0001_BOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0001_BOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0001_BOL_discharge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0001_EOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0001_EOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0001_EOL_discharge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_BOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_BOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_BOL_discharge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_EOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_EOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0002_EOL_discharge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_BOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_BOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_BOL_discharge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_EOL_EIS.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_EOL_charge.json",
+      "identical_pre_tolerance": true
+    },
+    {
+      "file": "F0003_EOL_discharge.json",
+      "identical_pre_tolerance": true
+    }
+  ],
+  "note": "Raw preparation repeated; EIS-admission LP outputs are separately frozen and verified, not reestimated in this replay."
+}

@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "conditions": 30,
+  "linear_programs": 120,
+  "relaxation_grids": [
+    1201,
+    2401
+  ],
+  "tau_domain_s": [
+    1e-10,
+    10000000000.0
+  ],
+  "maximum_endpoint_change_mOhm": 0.0002891974161656208,
+  "maximum_primal_excess_mOhm": 1.7030527321715283e-08,
+  "scope": "Exploratory finite-grid sensitivity only. No warm-case continuum exclusion or optimality claim."
+}

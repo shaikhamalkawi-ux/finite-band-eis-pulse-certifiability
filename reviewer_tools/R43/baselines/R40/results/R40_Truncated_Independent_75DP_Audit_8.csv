@@ -1,0 +1,9 @@
+case_id,method,n_leaves,independent_75dp_objective_encloses_MPFR,finite_R0_L_c_positive,fast_and_slow_tails_positive,compact_leaves_contiguous_positive,measured_gap_positive
+SOC70_charge_1.4C,taylor160,113,True,True,True,True,True
+SOC70_charge_1.4C,meanvalue256,268,True,True,True,True,True
+SOC70_discharge_1.4C,taylor160,113,True,True,True,True,True
+SOC70_discharge_1.4C,meanvalue256,269,True,True,True,True,True
+SOC70_charge_1.0C,taylor160,113,True,True,True,True,True
+SOC70_charge_1.0C,meanvalue256,269,True,True,True,True,True
+SOC60_discharge_1.4C,taylor160,105,True,True,True,True,True
+SOC60_discharge_1.4C,meanvalue256,262,True,True,True,True,True

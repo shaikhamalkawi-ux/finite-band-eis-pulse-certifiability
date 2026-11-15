@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "independent_objective_and_tail_checks": 84,
+  "negative_interior_controls_rejected": 42,
+  "original_7_EIS_feasible_models_unchanged": true,
+  "directed_rounding_runs": 168,
+  "claim_boundary": "Saved dual transport and new raw-derived computational inputs; metrological uncertainty remains unmeasured"
+}

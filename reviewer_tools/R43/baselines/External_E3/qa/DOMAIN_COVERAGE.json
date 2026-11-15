@@ -1,0 +1,338 @@
+[
+  {
+    "case_id": "F0001_BOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 255,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1727,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 180,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 780,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 255,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1727,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 180,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 780,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 264,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1201,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 128,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 474,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 264,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1200,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 128,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0001_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 474,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 207,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 975,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 117,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 436,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 207,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 975,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 117,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 436,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 184,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 926,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 167,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 714,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 184,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 926,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 167,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0002_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 714,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 284,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1644,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 115,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 419,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 284,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 1644,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 115,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_BOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 419,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_charge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 186,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_charge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 910,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_charge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 164,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_charge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 795,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_taylor160",
+    "leaves": 186,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_discharge",
+    "alpha": 1.0,
+    "method": "_meanvalue256",
+    "leaves": 909,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_taylor160",
+    "leaves": 164,
+    "complete_dyadic_cover": true
+  },
+  {
+    "case_id": "F0003_EOL_discharge",
+    "alpha": 2.0,
+    "method": "_meanvalue256",
+    "leaves": 795,
+    "complete_dyadic_cover": true
+  }
+]

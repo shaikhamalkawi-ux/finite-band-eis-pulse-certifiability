@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "checks": 1155,
+  "raw_source_reopened": true,
+  "source_conditions": 66,
+  "decimal_precision": 75,
+  "maximum_scatter_or_response_difference": 1.8474111129762605e-13,
+  "grid_solutions": 120,
+  "maximum_grid_primal_excess_mOhm": 1.7030527321715283e-08,
+  "maximum_grid_objective_difference_mOhm": 4.189077174032718e-07,
+  "scope": "Arithmetic and raw-window provenance checks, not measurement calibration or an independent human audit."
+}

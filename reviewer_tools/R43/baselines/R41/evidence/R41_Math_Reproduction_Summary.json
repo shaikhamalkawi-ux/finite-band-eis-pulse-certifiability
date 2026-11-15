@@ -1,0 +1,48 @@
+{
+  "version": "R41 working, exploratory mathematical strengthening, not journal-release clearance",
+  "source": "42 immutable R39 measured-current 5--15-second normalized JSON pulse/EIS cases",
+  "model": "positive-RC/Stieltjes, identical box half-tolerance for all real/imag EIS coordinates",
+  "theorem_scope": "worst-case over allowed EIS observation centers, not width of a particular observed center",
+  "analytic_cap": "r_hide(eps,tau) = eps*(1+x*x) when x<=1 else eps*(x+1/x), x=2*pi*f_min*tau",
+  "analytic_witness": "tau_star = 1/(2*pi*f_min), r_hide(tau_star)=2*eps",
+  "N": 42,
+  "target_mOhm": 0.4,
+  "slow_screen_fail_count": 0,
+  "finite_screen_fail_count": 42,
+  "slow_min_mOhm": 0.36446430197973034,
+  "slow_median_mOhm": 0.3750040172501026,
+  "slow_max_mOhm": 0.3831896199944778,
+  "finite_min_mOhm": 0.40671853336738106,
+  "finite_median_mOhm": 0.4269859676959056,
+  "finite_max_mOhm": 0.4363312491852739,
+  "median_strengthening_pct": 13.861704956385722,
+  "tests": {
+    "inputs": "42",
+    "zoh_independent_max_abs": "6.3253187659383139346091444307620114046259768294211045300466578150648865745818558e-81",
+    "closed_rhide_max_abs": "3.5373746401666845185582497230030436643291137492731008553057089413810552025753301e-74",
+    "tau_star_atom_check_max_abs": "0.0",
+    "charge_decomposition_max_abs": "0.0000000000000054966168937493298199999999999999999999999999999999999999999999999352531038429563"
+  },
+  "tests_common_uniform_48_frequency": 3444,
+  "not_claimed": [
+    "specific RWTH measured EIS-box half-width > 0.4 mOhm",
+    "global B_atom maximization",
+    "instrument calibrated tolerance",
+    "new data",
+    "causal mechanism",
+    "prospective pulse design"
+  ],
+  "nonuniform_counterexample": {
+    "omega": [
+      1,
+      10
+    ],
+    "epsilon_each": [
+      1,
+      0.01
+    ],
+    "tau": 1,
+    "actual_rhide": 0.101,
+    "false_fmin_only_prediction": 2.0
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "state": "WORKING_MANUSCRIPT_HOLD",
+  "checks": {
+    "R39 original manifest 394/394": {
+      "pass": true,
+      "details": "entries=394 mismatches=[]"
+    },
+    "R39 original zip CRC": {
+      "pass": true,
+      "details": "entries=395"
+    },
+    "primary nominal 42 positive": {
+      "pass": true,
+      "details": "median=5.984114004"
+    },
+    "R39 84 positives": {
+      "pass": true,
+      "details": ""
+    },
+    "conditional-3sigma 84 positive": {
+      "pass": true,
+      "details": ""
+    },
+    "alpha 42 invariance": {
+      "pass": true,
+      "details": "9.767582298536578e-09"
+    },
+    "finite-band grid counts": {
+      "pass": true,
+      "details": "{10: 42, 20: 37, 30: 28, 40: 13, 50: 0, 100: 0}"
+    },
+    "new 4 positive truncated proofs": {
+      "pass": true,
+      "details": ""
+    },
+    "information radius 42": {
+      "pass": true,
+      "details": ""
+    },
+    "R39 saved full-domain checks 168": {
+      "pass": true,
+      "details": "168"
+    },
+    "R39 negative control 42 count": {
+      "pass": true,
+      "details": "42"
+    },
+    "R40 truncated new MPFR 8/8": {
+      "pass": true,
+      "details": "8"
+    },
+    "R40 independent audit 8/8": {
+      "pass": true,
+      "details": ""
+    },
+    "supp S2 42x5 numeric table exact rounding": {
+      "pass": true,
+      "details": "[]"
+    },
+    "supp S11 42x4 certified table downward": {
+      "pass": true,
+      "details": "[]"
+    },
+    "supp S14 42x2 conditional table downward": {
+      "pass": true,
+      "details": "[]"
+    },
+    "supp S7 42x2 multiplier table": {
+      "pass": true,
+      "details": "[]"
+    },
+    "manuscript revised mean/max": {
+      "pass": true,
+      "details": ""
+    },
+    "working publication-version text clean": {
+      "pass": true,
+      "details": ""
+    },
+    "no accidental old nominal 25mHz gaps": {
+      "pass": true,
+      "details": ""
+    },
+    "PDF opens main.pdf": {
+      "pass": true,
+      "details": "pages=12"
+    },
+    "PDF all pages have text main.pdf": {
+      "pass": true,
+      "details": ""
+    },
+    "PDF opens supplementary.pdf": {
+      "pass": true,
+      "details": "pages=27"
+    },
+    "PDF all pages have text supplementary.pdf": {
+      "pass": true,
+      "details": ""
+    },
+    "main log clean": {
+      "pass": true,
+      "details": ""
+    },
+    "supplementary log clean": {
+      "pass": true,
+      "details": ""
+    }
+  },
+  "total": 26,
+  "passed": 26,
+  "main_pages": 12,
+  "supp_pages": 27,
+  "critical_unclosed_gates": [
+    "Raw RWTH trace 3sigma re-extraction absent; current 3sigma result is only a conditional first-order bound",
+    "Original warm-temperature raw current normalization has not been uniformly reconciled",
+    "Current-turn Bayreuth full 48-call replay timed out; inherited prior archived validation is not a new complete replay",
+    "Author-stage scientific signoff and new public GitHub release not performed"
+  ]
+}

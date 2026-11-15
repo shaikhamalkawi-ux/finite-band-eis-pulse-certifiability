@@ -1,0 +1,12 @@
+{
+  "baseline": "R42",
+  "unchanged_scientific_data": true,
+  "adaptations": {
+    "code/verify_public.py": "R42 read-only numerical checks; new filtered-public manifest and no manuscript requirements",
+    "code/check_sparse_saved.py": "R41 exact-support checks; manuscript-dependent and output-writing block removed, relative root adjusted",
+    "code/replay_saved.py": "Portable wrapper around unchanged C++ verifier and unchanged saved witnesses; fresh output directory required",
+    "code/worked_engineering_example.py": "New explanatory arithmetic using unchanged R42 table; no new measurement or optimization"
+  },
+  "publication_scope": "Code, processed evidence and recorded proof outputs only; no draft manuscript or full raw archive.",
+  "R43_documentation_note": "SOURCE_ATTRIBUTION.md clarifies raw acquisition occurred at the R42 stage, removes the obsolete internal transfer restriction, and preserves provider rights; no new license or manuscript publication is asserted."
+}

@@ -1,0 +1,181 @@
+{
+  "status": "PASS",
+  "raw_sha256": "875c266c9ac163d02803d3354453509bcd06e9255c1d063dc8ee97c9e0879e0f",
+  "raw_source_crc": "PASS",
+  "primary_cases": 42,
+  "temperature_slice_cases": 30,
+  "unique_source_conditions": 66,
+  "source_members": [
+    {
+      "file": "5deg/5deg_Overview.mat",
+      "sha256": "5a9e06f0a1250cc17e50a2a240bf4c9f1dd95ef06c237d2d50924fabd7d4c442",
+      "bytes": 9612127,
+      "group_sizes": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "file": "5deg/5deg_SOC20.mat",
+      "sha256": "12a57265f34acb041baa969ac8822ceff3f65bc23f4fdc0c001801f22585c3f0"
+    },
+    {
+      "file": "5deg/5deg_SOC30.mat",
+      "sha256": "d6c756b699e6269a558572e7970078cc4cad86f7a921b189e088fd5918a868e8"
+    },
+    {
+      "file": "5deg/5deg_SOC40.mat",
+      "sha256": "e54dff6462594b8a26b0caa751c6f5f7bf9de47855ebe9e64a7a3b397a9d2c0e"
+    },
+    {
+      "file": "5deg/5deg_SOC50.mat",
+      "sha256": "9e8dac7f1844c754f03810f21f9bf2277e99b56d1476e3f3a8c54540047f4058"
+    },
+    {
+      "file": "5deg/5deg_SOC60.mat",
+      "sha256": "d8ed6db53f37e96aa81c0f1bf8617a9cbb59604b11a7bda65107fc93bae7d3d6"
+    },
+    {
+      "file": "5deg/5deg_SOC70.mat",
+      "sha256": "362b01a1e5aaaf19f9cf07a56a1f267d47cf8e8c11328c81f760f936d306ac6a"
+    },
+    {
+      "file": "5deg/5deg_SOC80.mat",
+      "sha256": "781c6e94c4b6576c23007d0745af122dcc5ddc29738e04ec7588b02726aceed6"
+    },
+    {
+      "file": "15deg/15deg_Overview.mat",
+      "sha256": "8bf64de9b3ac8f49e6ef84bf7b9431c18d3f55a9a6cf733c82b08782590d592d",
+      "bytes": 9290759,
+      "group_sizes": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "file": "15deg/15deg_SOC50.mat",
+      "sha256": "84dd927214bba83aac46e67208d888c0a8649f4179ba043b9f7b244aa5722aa9"
+    },
+    {
+      "file": "25deg/25deg_Overview.mat",
+      "sha256": "ca66ca8337b2b7fe6802e100142d9916954d2c299fb6e8a7af8ef4238a9c8754",
+      "bytes": 9422991,
+      "group_sizes": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "file": "25deg/25deg_SOC50.mat",
+      "sha256": "23965363e36bae7da6b66c2f63d7babbcec56268c5abc8f9be2865fab0ba8fc2"
+    },
+    {
+      "file": "35deg/35deg_Overview.mat",
+      "sha256": "dee155aa63473b580a1e5ad529b90691cf376c81022c4352cade9a412935bfe9",
+      "bytes": 9408658,
+      "group_sizes": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "file": "35deg/35deg_SOC50.mat",
+      "sha256": "e7b6d45d9849578aa255186eeb1e3471db8e1aee72864d05a7d86e7ebb5338ae"
+    },
+    {
+      "file": "45deg/45deg_Overview.mat",
+      "sha256": "0da3426e272aabab6df7d81792da1c5299e5e06510106dbf9cc4149e4cc43079",
+      "bytes": 9423037,
+      "group_sizes": [
+        3,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ]
+    },
+    {
+      "file": "45deg/45deg_SOC50.mat",
+      "sha256": "7705f70525af8471bab641b0ea9bbd91a0b27c169bd892f2ad952f7ed5390853"
+    }
+  ],
+  "primary_source_max_input_difference": 0.0,
+  "local_3sigma": {
+    "endpoint": {
+      "median_halfwidth_mOhm": 0.055021678777533764,
+      "max_halfwidth_mOhm": 0.1975987527041565,
+      "by_alpha": {
+        "1": {
+          "positive_cases": 42,
+          "minimum_gap_mOhm": 1.2359252691862501
+        },
+        "2": {
+          "positive_cases": 42,
+          "minimum_gap_mOhm": 0.009321772570726054
+        }
+      }
+    },
+    "plateau": {
+      "median_halfwidth_mOhm": 0.05797402638338864,
+      "max_halfwidth_mOhm": 0.9806570350840924,
+      "by_alpha": {
+        "1": {
+          "positive_cases": 42,
+          "minimum_gap_mOhm": 1.2373549108894921
+        },
+        "2": {
+          "positive_cases": 42,
+          "minimum_gap_mOhm": 0.010751414273968139
+        }
+      }
+    }
+  },
+  "scope": "Raw recorded scatter; diagonal first-order sensitivity, not absolute calibration, confidence coverage, or full-waveform uncertainty."
+}

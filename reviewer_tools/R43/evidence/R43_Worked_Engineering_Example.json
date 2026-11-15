@@ -1,0 +1,74 @@
+{
+  "status": "PASS",
+  "source_sha256": "8b2fd1fe17dc376bddc306d7f2ca09bccc878517b8aa9999e9ca132ef11c6db3",
+  "case_selection": "Weakest endpoint-window local-scatter margin at doubled EIS tolerance in R42",
+  "scope": "Illustration from existing data; hypothetical extra pulse-only bounds. EIS center, tolerance, waveform and state matching held fixed. No calibrated coverage, new experiment, or tested decision-policy performance.",
+  "records": [
+    {
+      "case_id": "SOC30_discharge_0.7C",
+      "alpha": 1,
+      "measured_response_mOhm": "73.419329242286409",
+      "saved_lower_bound_mOhm": "74.722920259759178",
+      "local_halfwidth_mOhm": "0.067665748286532448",
+      "local_expanded_gap_mOhm": "1.2359252691862501",
+      "local_expanded_gap_microOhm": "1235.9252691862501000",
+      "current_normalizer_A": "2.3453916486250819",
+      "scenarios": [
+        {
+          "additional_pulse_only_bound_mOhm": "0",
+          "remaining_saved_witness_margin_mOhm": "1.2359252691862501",
+          "remaining_margin_downward_6dp_mOhm": "1.235925",
+          "saved_witness_excludes": true,
+          "interpretation": "Exclusion retained for this declared scenario"
+        },
+        {
+          "additional_pulse_only_bound_mOhm": "0.005",
+          "remaining_saved_witness_margin_mOhm": "1.2309252691862501",
+          "remaining_margin_downward_6dp_mOhm": "1.230925",
+          "saved_witness_excludes": true,
+          "interpretation": "Exclusion retained for this declared scenario"
+        },
+        {
+          "additional_pulse_only_bound_mOhm": "0.010",
+          "remaining_saved_witness_margin_mOhm": "1.2259252691862501",
+          "remaining_margin_downward_6dp_mOhm": "1.225925",
+          "saved_witness_excludes": true,
+          "interpretation": "Exclusion retained for this declared scenario"
+        }
+      ]
+    },
+    {
+      "case_id": "SOC30_discharge_0.7C",
+      "alpha": 2,
+      "measured_response_mOhm": "73.419329242286409",
+      "saved_lower_bound_mOhm": "73.496316763143682",
+      "local_halfwidth_mOhm": "0.067665748286532448",
+      "local_expanded_gap_mOhm": "0.009321772570726054",
+      "local_expanded_gap_microOhm": "9.321772570726054000",
+      "current_normalizer_A": "2.3453916486250819",
+      "scenarios": [
+        {
+          "additional_pulse_only_bound_mOhm": "0",
+          "remaining_saved_witness_margin_mOhm": "0.009321772570726054",
+          "remaining_margin_downward_6dp_mOhm": "0.009321",
+          "saved_witness_excludes": true,
+          "interpretation": "Exclusion retained for this declared scenario"
+        },
+        {
+          "additional_pulse_only_bound_mOhm": "0.005",
+          "remaining_saved_witness_margin_mOhm": "0.004321772570726054",
+          "remaining_margin_downward_6dp_mOhm": "0.004321",
+          "saved_witness_excludes": true,
+          "interpretation": "Exclusion retained for this declared scenario"
+        },
+        {
+          "additional_pulse_only_bound_mOhm": "0.010",
+          "remaining_saved_witness_margin_mOhm": "-0.000678227429273946",
+          "remaining_margin_downward_6dp_mOhm": "-0.000679",
+          "saved_witness_excludes": false,
+          "interpretation": "This saved witness does not certify exclusion; compatibility is not established"
+        }
+      ]
+    }
+  ]
+}

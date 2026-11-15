@@ -1,0 +1,83 @@
+[
+  {
+    "margin": 0.005,
+    "shift": 0,
+    "validation": {
+      "passed": false,
+      "precision_bits": 160,
+      "mpfr_version": "4.2.2",
+      "mode": 2,
+      "xl": -24,
+      "xh": 8,
+      "certified_lower_mOhm": 654.0602747577972,
+      "certified_lower_upper_round_mOhm": 654.0602747577973,
+      "gap_lower_mOhm": 75.19956409587742,
+      "finite_R0_lower": 0.004999997213682809,
+      "finite_L_lower": 0.06283185298547557,
+      "finite_c_lower": 0.007645662360781615,
+      "fast_tail_lower": 0.004917393196825135,
+      "slow_tail_H_lower": -0.02580239318758424,
+      "compact_residual_lower": 0,
+      "accepted_leaves": 0,
+      "evaluated_bins": 0,
+      "max_depth": 0,
+      "natural_leaves": 0,
+      "mean_value_leaves": 0,
+      "taylor_leaves": 0
+    }
+  },
+  {
+    "margin": 0.005,
+    "shift": 1,
+    "validation": {
+      "passed": false,
+      "precision_bits": 160,
+      "mpfr_version": "4.2.2",
+      "mode": 2,
+      "xl": -25,
+      "xh": 9,
+      "certified_lower_mOhm": 654.0602747577972,
+      "certified_lower_upper_round_mOhm": 654.0602747577973,
+      "gap_lower_mOhm": 75.19956409587742,
+      "finite_R0_lower": 0.004999997213682809,
+      "finite_L_lower": 0.06283185298547557,
+      "finite_c_lower": 0.007645662360781615,
+      "fast_tail_lower": 0.004969608924512033,
+      "slow_tail_H_lower": -0.004651487529177104,
+      "compact_residual_lower": 0,
+      "accepted_leaves": 0,
+      "evaluated_bins": 0,
+      "max_depth": 0,
+      "natural_leaves": 0,
+      "mean_value_leaves": 0,
+      "taylor_leaves": 0
+    }
+  },
+  {
+    "margin": 0.005,
+    "shift": 2,
+    "validation": {
+      "passed": true,
+      "precision_bits": 160,
+      "mpfr_version": "4.2.2",
+      "mode": 2,
+      "xl": -26,
+      "xh": 10,
+      "certified_lower_mOhm": 654.0602747577972,
+      "certified_lower_upper_round_mOhm": 654.0602747577973,
+      "gap_lower_mOhm": 75.19956409587742,
+      "finite_R0_lower": 0.004999997213682809,
+      "finite_L_lower": 0.06283185298547557,
+      "finite_c_lower": 0.007645662360781615,
+      "fast_tail_lower": 0.004988817990957258,
+      "slow_tail_H_lower": 0.003122836096260096,
+      "compact_residual_lower": 2.32644430881315e-07,
+      "accepted_leaves": 264,
+      "evaluated_bins": 492,
+      "max_depth": 4,
+      "natural_leaves": 7,
+      "mean_value_leaves": 0,
+      "taylor_leaves": 257
+    }
+  }
+]

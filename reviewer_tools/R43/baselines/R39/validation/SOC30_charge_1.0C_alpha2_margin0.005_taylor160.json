@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "precision_bits": 160,
+  "mpfr_version": "4.2.2",
+  "mode": 2,
+  "xl": -24,
+  "xh": 8,
+  "certified_lower_mOhm": 73.50784365157298,
+  "certified_lower_upper_round_mOhm": 73.507843651573,
+  "gap_lower_mOhm": 3.82085701784663,
+  "finite_R0_lower": 0.004999999939380408,
+  "finite_L_lower": 0.0037699111843077274,
+  "finite_c_lower": 2.34516701541288,
+  "fast_tail_lower": 0.004999999927010183,
+  "slow_tail_H_lower": 2.25315927619602,
+  "compact_residual_lower": 6.589814653677487e-05,
+  "accepted_leaves": 74,
+  "evaluated_bins": 116,
+  "max_depth": 4,
+  "natural_leaves": 22,
+  "mean_value_leaves": 0,
+  "taylor_leaves": 52
+}

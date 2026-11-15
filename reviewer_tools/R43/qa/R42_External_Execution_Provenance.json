@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "source_manifest_files": 297,
+  "fresh_completed_runs": 48,
+  "prior_to_this_session_outputs_reused": 0,
+  "current_session_resume_after_tool_timeout": true,
+  "source_script_sha256": "4abc27ae3efecc0b6e08ce2eff10127ab2e6913bc02d7bfa26bdd8f090146056",
+  "changes": [
+    "redirect output outside baseline",
+    "allow current-session partial outputs only after exact comparison",
+    "increase per-job timeout to 1200 s",
+    "add original code directory to import path"
+  ],
+  "numerical_algorithm_changed": false,
+  "scope": "all 24 saved external instances/witnesses, two MPFR methods, independent arithmetic, primal constraints and invalid controls; not a new raw archive parsing"
+}

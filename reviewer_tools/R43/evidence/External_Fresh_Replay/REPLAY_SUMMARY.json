@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "manifest_files": 297,
+  "input_witness_pairs": 24,
+  "full_domain_runs": 48,
+  "independent_arithmetic_witnesses": 24,
+  "feasible_models": 6,
+  "primal_constraints": 852,
+  "invalid_controls_rejected": 12,
+  "all_outputs_identical": true,
+  "scope": "Saved external computational inputs; no optimization, new experiment, calibration or independent-human review."
+}

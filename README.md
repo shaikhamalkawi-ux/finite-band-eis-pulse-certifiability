@@ -1,76 +1,29 @@
 # Finite-Band EIS Pulse Certifiability
 
-Reviewer-facing reproducibility repository for the manuscript:
+## Corrected numerical release: R42 baseline / R43 manuscript interpretation
 
-**Certifiability Before Prediction: Finite-Band EIS Bounds for Lithium-Ion Battery Pulse Diagnostics**
+The corrected-current reproducibility materials are in **[reviewer_tools/R43](reviewer_tools/R43/README.md)**. Start there rather than with the legacy root-level tables. This release preserves the R42 calculation lock and supplies an executable worked engineering example used in manuscript revision R43.
 
-## Current research release: R38 EP1 (October 2026)
+The study tests **EIS--pulse model-set consistency**, not battery failure, causal mechanism, a calibrated confidence-level rejection, or an onboard BMS policy. Its primary 42 observations are operating conditions on one cell. The sparse-frequency result is retrospective certificate compression at a fixed tolerance, not measured acquisition-time savings.
 
-The current submission-prepared study adds an external-cell **conditional** validation layer to the original RWTH 42-case findings. Reproducibility materials, including the final compiled **3.75 MB** computational archive in four integrity-checked pieces and the runnable external verifier, are in **[reviewer_tools/R38](reviewer_tools/R38/README.md)**.
-
-The external layer includes 3 Bayreuth cells (12 operating cases; 24 case–tolerance witnesses). It does not imply manufacturer instrument calibration, guaranteed cell-state continuity over long EIS–pulse delays, 12 independent cell replicates, or prospective EIS-only stopping. The original RWTH and Bayreuth **raw** source ZIPs and private correspondence are not included. The manuscript itself is not deposited here. Please cite the source data DOI(s) and paper when reusing published data.
-
-## Historical reviewer archive (R37)
-
-The all-case directed-rounding verifier and systematic-correction sensitivity are supplied in the accompanying **`Batteries_R37_Reviewer_Replay.zip`**, SHA-256 `277c73ff96923904d9eff9980dece66b52d4484add76b1913b9944962a06e1a1`. See [the R37 reviewer guide and exact manuscript/archive pairing](reviewer_tools/R37/README.md) and [the archive checker](reviewer_tools/R37/verify_review_archive.py).
-
-**This repository does not yet mirror the complete R36/R37 archive.** The files below are the earlier public analysis layer; in particular, the old representative-case verifier is not the new all-42 verifier. For full review, use the computational archive accompanying the manuscript, not the manuscript PDFs alone. The new result is paired-reference model-set exclusion, not an EIS-only stopping policy, calibrated instrument validation or a multiple-cell population claim.
-
-This repository contains the analysis code and derived tables used for the finite-band EIS-to-pulse certifiability study. It intentionally does **not** redistribute the original third-party RWTH Aachen raw dataset.
-
-## Source data
-
-The source dataset is publicly available from RWTH Aachen University:
-
-- DOI: https://doi.org/10.18154/RWTH-2025-04811
-
-For scripts that replay raw-trace or EIS calculations, download the official source archive and place the original `MatFiles.zip` in the repository root.
-
-Expected `MatFiles.zip` SHA-256:
-
-`875c266c9ac163d02803d3354453509bcd06e9255c1d063dc8ee97c9e0879e0f`
-
-Run:
+### Reproduce the corrected results
 
 ```bash
-python verify_raw_data.py
+cd reviewer_tools/R43
+python -B -m pip install -r requirements.txt
+python -B code/verify_public.py
+python -B code/worked_engineering_example.py
 ```
 
-before any raw-data-dependent replay.
+The release guide distinguishes read-only evidence checking, numerical regeneration from the original source archive, and fresh MPFR certificate replay. The public mirror includes processed cases, source-window extractions, certificates, code, complete saved verification records and hashes. No draft manuscript, full third-party raw archive, private correspondence or new public software-license declaration is included.
 
-## Contents
+### Source data
 
-- **12 Python scripts** in the repository root for analysis, validation, and source-integrity checks.
-- **28 derived CSV tables** in `derived_data/`, with the principal script inputs also mirrored at the repository root for direct replay.
-- The repository contains derived/reproducibility materials only; it does not contain the original third-party RWTH raw archive.
-- `RWTH_Data_Integrity_Manifest.txt` - source archive integrity record.
-- `R10_DATA_DERIVED_PRECISION_METHOD.txt` - precision-audit method note.
-- `R19_SELECTION_AND_EQ9_README.txt` - selection/Eq. (9) technical note.
+- RWTH: https://doi.org/10.18154/RWTH-2025-04811
+- Bayreuth version 1: https://doi.org/10.5281/zenodo.15755725
 
-## Python dependencies
+The required RWTH `MatFiles.zip` SHA-256 is `875c266c9ac163d02803d3354453509bcd06e9255c1d063dc8ee97c9e0879e0f`. Download original raw data from their providers and preserve their attribution.
 
-Install the required packages with:
+### Historical material
 
-```bash
-python -m pip install -r requirements.txt
-```
-
-The scripts use Python with NumPy, pandas, SciPy, matplotlib, and mpmath. Reviewer-facing files are directly browsable because the repository is public.
-
-## Reproduction notes
-
-Run scripts from the repository root. Some scripts use only the included derived tables; others require the official `MatFiles.zip` source archive.
-
-Examples that can be run directly from the included derived tables:
-
-```bash
-python R19_build_historical_selection_matrix.py
-python R23_compute_vehicle_design_table.py
-python R25_build_adaptive_fast_eis_map.py
-```
-
-Raw-data-dependent scripts will stop if `MatFiles.zip` is absent. The original raw data are not committed to this repository.
-
-## Scientific scope
-
-The root-level legacy files reproduce earlier finite-band analyses and screening methods. The R38 verifier, full saved case–tolerance witness archives, all-case full-domain checks, and external Bayreuth data evaluations are available under reviewer_tools/R38. The code and tables are provided for verification of the reported computational results; they do not change the scientific baseline of the manuscript.
+[reviewer_tools/R38](reviewer_tools/R38/README.md), [reviewer_tools/R37](reviewer_tools/R37/README.md), and the older root scripts/derived tables remain for provenance. They are not the current corrected-current results and must not be mixed with the R42/R43 companion release. The previous published baseline was commit `e27d428bc0ada47b5bfb23c4b5bd749b5cac39bf`.

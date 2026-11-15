@@ -1,0 +1,842 @@
+[
+  {
+    "case_id": "SOC20_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC20_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC30_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC40_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC50_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC60_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC70_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_charge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_0.7C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_0.7C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_1.0C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_1.0C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_1.4C",
+    "alpha": 1,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  },
+  {
+    "case_id": "SOC80_discharge_1.4C",
+    "alpha": 2,
+    "objective_inside_MPFR_rounds": true,
+    "finite_constraints_positive": true,
+    "right_endpoint_positive": true,
+    "point_exclusion_positive": true,
+    "both_tails_positive": true,
+    "sample_envelope_positive": true
+  }
+]

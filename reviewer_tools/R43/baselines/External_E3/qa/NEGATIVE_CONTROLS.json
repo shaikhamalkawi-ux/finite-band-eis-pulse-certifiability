@@ -1,0 +1,110 @@
+[
+  {
+    "case_id": "F0001_BOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2240000000000002,
+    "negative_point_interval": "[-0.097164919490832322139293448290508595818085067128493789239161917855966859397415661, -0.097164919490832322139293448290508595818085067128493789239161917855966859147294948]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0001_BOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2240000000000002,
+    "negative_point_interval": "[-0.097164919501754648730819758944452506114169588233327824955342065919773884670962956, -0.097164919501754648730819758944452506114169588233327824955342065919773884421032238]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0001_EOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2159999999999993,
+    "negative_point_interval": "[-0.097165917584196589846701273694236144606232210910556833745882737582976811461466503, -0.097165917584196589846701273694236144606232210910556833745882737582976811218082001]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0001_EOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2159999999999993,
+    "negative_point_interval": "[-0.097165917695380388585267983968757135358249935510339975270591079050673832830679598, -0.097165917695380388585267983968757135358249935510339975270591079050673832586120577]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0002_BOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.17600000000000016,
+    "negative_point_interval": "[-0.097150289717035855448012424766436408835901688349238609867034643269239854653820436, -0.097150289717035855448012424766436408835901688349238609867034643269239854408052351]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0002_BOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.17600000000000016,
+    "negative_point_interval": "[-0.097150290771234370602802763850452572872555116240125088556115338470212189796336152, -0.097150290771234370602802763850452572872555116240125088556115338470212189551777131]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0002_EOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2400000000000002,
+    "negative_point_interval": "[-0.09716481943230613053970014002673607717112185057060593956873800855142301748421858, -0.097164819432306130539700140026736077171121850570605939568738008551423017243355839]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0002_EOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.2400000000000002,
+    "negative_point_interval": "[-0.097164819331173489765160521933765320313256151723750313513876292255593588541717824, -0.097164819331173489765160521933765320313256151723750313513876292255593588301476887]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0003_BOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.3439999999999994,
+    "negative_point_interval": "[-0.097224747289354206246305165100846614691703492794944035030768492112599668539267197, -0.097224747289354206246305165100846614691703492794944035030768492112599668271373248]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0003_BOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.3439999999999994,
+    "negative_point_interval": "[-0.097224747288149206688860783486817996985576086971784417160422197659425106357614975, -0.097224747288149206688860783486817996985576086971784417160422197659425106090999179]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0003_EOL_charge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.05600000000000094,
+    "negative_point_interval": "[-0.0970989592638075322081712912429109809473053023269795410521880211748300263501938, -0.097098959263807532208171291242910980947305302326979541052188021174830026102456669]",
+    "negative_point_upper_lt_zero": true
+  },
+  {
+    "case_id": "F0003_EOL_discharge",
+    "verifier_rejected": true,
+    "finite_and_tails_pass": true,
+    "claimed_gap_positive": true,
+    "negative_point_logtau": 0.05600000000000094,
+    "negative_point_interval": "[-0.097098955288220077480049820485105625753518351793436555518993796345387084908461402, -0.097098955288220077480049820485105625753518351793436555518993796345387084659964288]",
+    "negative_point_upper_lt_zero": true
+  }
+]
