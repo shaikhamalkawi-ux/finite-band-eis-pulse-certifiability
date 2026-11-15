@@ -1,0 +1,16 @@
+{
+  "schema": "project52-release-staging-v1",
+  "status": "STAGING_INCOMPLETE_NOT_CITABLE",
+  "prepared_numerical_baseline": "R42",
+  "prepared_manuscript_revision": "R43",
+  "expected_overlay_file_count": 2456,
+  "expected_overlay_uncompressed_bytes": 18839755,
+  "expected_path": "reviewer_tools/R43",
+  "historical_main_base": "e27d428bc0ada47b5bfb23c4b5bd749b5cac39bf",
+  "rwth_source_doi": "10.18154/RWTH-2025-04811",
+  "bayreuth_source_doi": "10.5281/zenodo.15755725",
+  "raw_archive_publication": false,
+  "manuscript_publication": false,
+  "full_mirror_uploaded": false,
+  "do_not_update_manuscript_availability_until_full_readback": true
+}
